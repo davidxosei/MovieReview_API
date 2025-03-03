@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR_GITHUB_USERNAME/moviereview-api.git'
+                git branch: 'main', url: 'https://github.com/davidxosei/MovieReview_API.git'
             }
         }
 
